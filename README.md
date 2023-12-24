@@ -18,16 +18,16 @@ This project is a comprehensive Jupyter notebook that guides the user through th
 <a name="project-steps"></a>
 ## Project Steps
 
-- **Importing Libraries**: Description of this step.
-- **Loading the Dataset**: Description of this step.
-- **Exploratory Data Analysis**: Description of this step.
-- **Data Preprocessing**: Description of this step.
-- **Creating the Model**: Description of this step.
-- **Compiling the Model**: Description of this step.
-- **Training the Model**: Description of this step.
-- **Evaluating the Model**: Description of this step.
-- **Making Predictions**: Description of this step.
-- **Visualizing the Results**: Description of this step.
+- **Importing Libraries**: Begin by importing all necessary libraries. This will typically include numpy for numerical operations, matplotlib for plotting and visualization, tensorflow or another deep learning framework for model creation and training, and other utilities as needed.
+- **Loading the Dataset**: The dataset containing images of traffic signs and their corresponding labels is loaded into the working environment. It's crucial to understand the structure of the dataset, including the format of the images and labels.
+- **Exploratory Data Analysis**:  Perform an initial analysis to understand the dataset better. This may involve visualizing different traffic sign images, analyzing the distribution of classes, and identifying any potential issues with the data.
+- **Data Preprocessing**: Prepare the data for the machine learning model. This step could include resizing images to a uniform shape, normalizing pixel values, converting labels to a one-hot encoded format, and splitting the dataset into training, validation, and test sets.
+- **Creating the Model**: Construct the convolutional neural network (CNN) that will be used to classify the traffic signs. Define the architecture with convolutional layers, activation functions, pooling layers, and fully connected layers as appropriate.
+- **Compiling the Model**: Set up the model for training by choosing a loss function that's suitable for classification (such as categorical crossentropy), an optimizer (like Adam or SGD), and metrics (like accuracy) to monitor during training.
+- **Training the Model**: Train the model using the training data. During this phase, the model learns to associate images with their corresponding labels. It's often necessary to use techniques like batch processing and data augmentation to achieve the best results.
+- **Evaluating the Model**: After training, assess the model's performance using the test set. This will provide insight into how well the model is likely to perform on real-world data that it hasn't seen before.
+- **Making Predictions**: With the trained and evaluated model, make predictions on new images of traffic signs to see how the model performs in practical scenarios.
+- **Visualizing the Results**: It's useful to visualize the cases where the model has made incorrect predictions. This can help diagnose what the model is
 
 <a name="usage"></a>
 ## Usage
